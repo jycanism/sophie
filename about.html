@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #f4f8ff;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        nav {
+            background-color: #1e5aa8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 85%;
+            margin: 40px auto;
+        }
+
+        .box {
+            background-color: white;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 3px 10px #cccccc;
+            margin-bottom: 30px;
+        }
+
+        h1, h2 {
+            color: #1e5aa8;
+        }
+
+        .pictures {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .picture-item {
+            text-align: center;
+        }
+
+        .picture-item h3 {
+            color: #1e5aa8;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .pictures img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 5px solid #3b82f6;
+            padding: 3px;
+            background-color: white;
+        }
+
+        .media-box {
+            background-color: #dbeafe;
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .media-box h2 {
+            color: #1e5aa8;
+        }
+
+        .description {
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        video {
+            width: 250px;
+            max-width: 100%;
+            border: 5px solid #3b82f6;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        audio {
+            width: 250px;
+            max-width: 100%;
+            border: 5px solid #3b82f6;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        .contact {
+            background-color: #1e5aa8;
+            color: white;
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .contact h2 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+</nav>
+
+<div class="container">
+
+    <div class="box">
+
+        <h1>About Me</h1>
+
+        <h2>My Favorite Picture</h2>
+
+        <div class="pictures">
+
+            <div class="picture-item">
+                <img src="twins.jpeg" alt="My Favorite Picture">
+            </div>
+
+        </div>
+
+        <p class="description">
+            This is my favorite picture because it reminds me of how my twin and I used to be when we were younger. Seeing my two little sisters holding each other's hands brings back memories of our childhood and reminds me how beautiful it is to have someone who grows up alongside you.
+        </p>
+
+    </div>
+
+    <div class="media-box">
+
+        <h2>My Favorite Audio</h2>
+
+        <audio controls>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>My Favorite Music – “Running Out of Songs” by The Ridleys</h3>
+
+        <p class="description">
+            This is one of my favorite songs by The Ridleys because it reminds me that even when words are no longer enough, music can still express the feelings we struggle to put into words. It has a certain warmth that makes it comforting to listen to.
+        </p>
+
+    </div>
+
+    <div class="media-box">
+
+        <h2>My Favorite Video</h2>
+
+        <video controls>
+            <source src="mahal.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <h3>My Favorite Video – “Mahal Magmahal” Music Video</h3>
+
+        <p class="description">
+            This is my favorite music video because it shows the reality of love and life. It reminds me that love is not always about happy moments; it also comes with challenges, sacrifices, and lessons that help us grow.
+        </p>
+
+    </div>
+
+    <div class="contact">
+
+        <h2>How to Contact Me</h2>
+
+        <p>
+            You can contact me through my social media or other
+            available contact information.
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
